@@ -77,14 +77,11 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 @media only screen and (max-width:700px) {
-    .launch-card{
+    .container-card{
         width: 45%;
         height: 190px;
         text-align: center;
         justify-content: center;
-    }
-    .launch-success{
-        display: block;
     }
     .btn{
         /* height: 50%; */
@@ -93,10 +90,7 @@ h1{
 }
 
 @media only screen and (max-width: 350px){
-    .launch-card{
+    .container-card{
         width: 100%
-    }
-    .launch-success{
-        display: block;
     }
 }

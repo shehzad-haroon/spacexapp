@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "spacex-shehzad"
+    "default": "spacex-shehzad",
+    "spacex": "spacex-shehzad"
   }
 }
