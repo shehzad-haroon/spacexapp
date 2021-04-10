@@ -1,0 +1,35 @@
+.image{
+width: 420px;
+height: 400px;
+padding: 10px;
+}
+h1,h3{
+    color: rgb(247, 247, 251);
+    background-color: transparent;
+}
+.launch{
+    background-color: rgb(5, 144, 187);
+    color: rgb(245, 239, 239);
+    padding: 5px;
+    text-align: center;
+}
+
+
+.spin{
+    margin-top: 30%;
+}
+@media only screen and (max-width:700px) {
+    .image{
+        width: 90%;
+        height: 150px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .image{
+        width: 70%
+    }
+    
+}
